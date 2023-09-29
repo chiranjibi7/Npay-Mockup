@@ -1,8 +1,9 @@
+import Topbar from "./shared/ui/Topbar";
 
 function App() {
   return (
-    <div className="App">
-        hi
+    <div>
+        <Topbar/>
     </div>
   );
 }
