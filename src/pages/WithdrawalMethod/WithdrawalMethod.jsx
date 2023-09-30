@@ -10,7 +10,7 @@ import Fill from "../../images/Fill 5.jpg";
 function WithdrawalMethod() {
   return (
     <div className='withdrawal-method'>
-        <Topbar/>
+        <Topbar icon={true} text="Withdrawal Method"/>
         
         <p className='balance-text'>How would you like us to transfer your money?</p>
         

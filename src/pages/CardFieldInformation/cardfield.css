@@ -1,0 +1,73 @@
+.cardfield{
+    width:375px;
+    /* height: 812px; */
+    padding-bottom: 90px;
+    background-color: #F7F8FA;
+}
+
+.visa-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.wallet-text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #092058;
+    line-height: 20.72px;
+    text-align: center;
+    margin-right: 63px;
+    margin-left: 63px;
+    width: 249px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.field-wrapper{
+    width: 343px;
+    height: 50px;
+    position: relative;
+    margin-top: 42px;
+}
+
+.cardfield input{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left:13px;
+    font-weight: 400;
+    color: #7D90AA;
+    font-size: 16px;
+    padding-left:19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.field-wrapper img{
+    position: absolute;
+    left:315px;
+    top:13px;
+}
+
+.eligible-banks{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top:171px;
+    margin-left:16px;
+    gap: 8px;
+}
+
+.eligible-banks p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D90AA;
+}
