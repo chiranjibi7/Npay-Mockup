@@ -1,0 +1,144 @@
+.withdrawal-method{
+    width:375px;
+    /* height: 812px; */
+    background-color: #F7F8FA;
+    padding-bottom: 64px;
+}
+
+.balance-text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #092058;
+    line-height: 20.72px;
+    text-align: center;
+    margin-right: 63px;
+    margin-left: 63px;
+    margin-top: 25px;
+    width: 249px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.funds {
+    width:311px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top:50px;
+    margin-bottom: 16px;
+}
+
+.funds p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20.72px;
+    color: #092058;
+}
+
+.list {
+    width: 343px;
+    height: 166px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.bank-a, .bank-b, .bank-c{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 10px 20px 0px #00000005;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom:8px;
+}
+
+.bank-a, .bank-c{
+    background-color: #FFFFFF;
+}
+
+.bank-b{
+    background-color: #186BFE1A;
+}
+
+.bank-a .logo, .bank-b .logo, .bank-c .logo{
+    margin-left:11px;
+    margin-bottom: 11px;
+    margin-top:6px;
+    margin-right:13px;
+}
+
+.text-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-b .text-wrapper{
+    width: 174px;
+}
+
+.text-bank{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color:#092058;
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+
+.text-free{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12.19px;
+    color:#7D90AA;
+    margin-bottom:11px;
+    margin-top: 0px;
+}
+
+.fill{
+    margin-left: 79px;
+    margin-top:22px;
+    margin-right: 19.25px;
+    margin-bottom: 17.55px;
+}
+
+.btn-wrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    padding: 11px 63px 12px 64px;
+    margin-top: 223px;
+}
+
+.btn-primary{
+    background-color: #186BFE;
+    width: 248px;
+    border-radius: 50px;
+    height: 42px;
+    box-shadow: 0px 10px 20px 0px #0000000D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-continue{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.72px;
+    color:#FFFFFF;
+}
+
+.btn-cancel{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    color:#186BFE;
+    margin: 8px 154px 0px 152px;
+    cursor: pointer;
+}
