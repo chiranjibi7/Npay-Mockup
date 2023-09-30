@@ -1,9 +1,9 @@
-import Topbar from "./shared/ui/Topbar";
+import { WithdrawalMethod } from "./pages";
 
 function App() {
   return (
     <div>
-        <Topbar/>
+       <WithdrawalMethod/>
     </div>
   );
 }
