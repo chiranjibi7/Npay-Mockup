@@ -1,0 +1,121 @@
+.cardexpiry{
+    width:375px;
+    padding-bottom: 90px;
+    background-color: #F7F8FA;
+}
+
+.user-info{
+    width:343px;
+    height: 125px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px #00000005;
+}
+
+.user-info img{
+    margin-left: 318px;
+    margin-top: 7px;
+}
+
+.user-info .userinfo-key{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    color: #4F6C8D;
+}
+
+.user-info .userinfo-value{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    color: #092058;
+}
+
+.user-info .user-name{
+    width:311px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:11px;
+}
+
+.user-info .user-phone{
+    width:311px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:11px;
+    margin-top:8px;
+}
+
+.user-info .user-address{
+    width:311px;
+    /* height: 19px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left:11px;
+}
+
+.user-info .user-address .userinfo-value{
+    width:236px;
+    text-align:end;
+    margin-left:20px;
+    margin-top:8px;
+}
+
+.visa-content{
+    width: 343px;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-top: 9px;
+    margin-left: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+.visa-content .visa-num{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #7D90AA;
+}
+
+.visa-content .visa-text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    color: #47C78F;
+}
+
+.visa-expiry{
+    width: 147px;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 22px;
+}
+
+.visa-expiry input{
+    width:100%;
+    height: 100%;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #7D90AA;
+    padding-left: 7px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
