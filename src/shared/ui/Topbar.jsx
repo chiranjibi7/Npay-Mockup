@@ -5,7 +5,7 @@ import Wifi from "../../images/Wifi.jpg";
 import Battery from "../../images/Battery.jpg";
 import Back from "../../images/back.jpg";
 
-function Topbar() {
+function Topbar({icon,text}) {
   return (
     <div className='topbar-container'>
         <div className='status-container'>
@@ -15,8 +15,8 @@ function Topbar() {
         </div>
 
         <div className='nav-container'>
-              <img src={Back} id="back" height={24} width={24} />
-                <p id="nav-text">Withdrawal Method</p>
+              {icon && <img src={Back} id="back" height={24} width={24} />}
+              <p id="nav-text">{text}</p>
         </div>
     </div>
   )
