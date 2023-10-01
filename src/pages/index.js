@@ -4,5 +4,6 @@ import CardExpiryInformation from "./CardExpiryInformation/CardExpiryInformation
 import VisadirectWithdrawal from "./VisadirectWithdrawal/VisadirectWithdrawal";
 import CardErrorModal from "./CardErrorModal/CardErrorModal";
 import WithdrawalMethodChange from "./WithdrawalMethodChange/WithdrawalMethodChange";
+import Confirmation from "./Confirmation/Confirmation";
 
-export {WithdrawalMethod,CardFieldInformation,CardExpiryInformation, VisadirectWithdrawal, CardErrorModal, WithdrawalMethodChange}
+export {WithdrawalMethod,CardFieldInformation,CardExpiryInformation, VisadirectWithdrawal, CardErrorModal, WithdrawalMethodChange, Confirmation}
