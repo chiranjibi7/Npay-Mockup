@@ -1,12 +1,13 @@
-import { WithdrawalMethod, CardFieldInformation, CardExpiryInformation, VisadirectWithdrawal } from "./pages";
+import { WithdrawalMethod, CardFieldInformation, CardExpiryInformation, VisadirectWithdrawal, CardErrorModal } from "./pages";
 
 function App() {
   return (
     <div>
        {/* <WithdrawalMethod/>
        <CardFieldInformation/>
-       <CardExpiryInformation/> */}
-       <VisadirectWithdrawal/>
+       <CardExpiryInformation/>
+       <VisadirectWithdrawal/> */}
+       <CardErrorModal/>
     </div>
   );
 }
