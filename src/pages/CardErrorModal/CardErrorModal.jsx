@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react';
-import "../CardFieldInformation/cardfield.css";
+import "./carderror.css";
 import Topbar from '../../shared/ui/Topbar';
 import VisaDirect from "../../images/VISADIRECT.jpg";
 import Loader from "../../images/Loader anim.jpg";
@@ -9,22 +9,22 @@ import National from "../../images/National.jpg";
 import Tangerine from "../../images/Tangerine.jpg";
 
 function CardErrorModal() {
-    // const errorModalRef=useRef();
-    // useEffect(()=>{
-    //     errorModalRef.current.showModal();
-    // })
+    const errorModalRef=useRef();
+    useEffect(()=>{
+        errorModalRef.current.showModal();
+    })
   return (
-    <div className='cardfield'>
+    <div className='errormodal'>
         <Topbar icon={true} text="Card Information"/>
-        <div className='visa-img'>
+        <div className='visa-img-error'>
             <img src={VisaDirect} width={60} height={60}/>
         </div>
-        <p className='wallet-text'>Please enter your card number.</p>
-        <div className='field-wrapper'>
+        <p className='wallet-text-error'>Please enter your card number.</p>
+        <div className='field-wrapper-error'>
             <input value='4521 5485 4574 2010'/>
             <img src={Loader} height={24} width={24} />
         </div>
-        <div className='eligible-banks'>
+        <div className='eligible-banks-error'>
             <p>Eligible Banks</p>
             <img src={Cibc} height={17} width={17} />
             <img src={Hsbc} height={17} width={17} />
@@ -37,9 +37,14 @@ function CardErrorModal() {
             </div>
         </div>
 
-        {/* <dialog ref={errorModalRef}>
+        <dialog ref={errorModalRef}>
+            <p className='error-title'>Card not enabled for Visa Direct</p>
+            <p className='error-text'>Your Visa branded card is not enabled for this payout method. Please try entering a new card number or select a different payout option.</p>
 
-        </dialog> */}
+            <div className='btn-primary-error'>
+                <p className='btn-continue-error'>OK</p>
+            </div>
+        </dialog>
     </div>
   )
 }
