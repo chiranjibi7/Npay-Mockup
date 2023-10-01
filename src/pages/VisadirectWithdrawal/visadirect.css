@@ -1,0 +1,102 @@
+.visadirect{
+    width:375px;
+    padding-bottom: 90px;
+    background-color: #F7F8FA;
+}
+
+.visa-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.visa-icon .tick{
+    border-radius: 50%;
+    position: absolute;
+    top:49px;
+    left:204px;
+    height: 18px;
+    width: 18px;
+}
+
+.visadirect .success-title {
+    height: 21px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.72px;
+    color: #092058;
+    text-align: center;
+    margin: 39px 89.5px 0px 89.5px;
+}
+
+.visadirect .success-text {
+    width:311px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7D90AA;
+    text-align: center;
+    margin: 26px 32px 32px 32px;
+}
+
+.detail{
+    width:343px;
+    height: 174px;
+    margin-left: 16px;
+    margin-top: 21px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px #00000005;
+}
+
+.detail .detail-key{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    color: #4F6C8D;
+}
+
+.detail .detail-value{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    color: #092058;
+}
+
+.detail .amount{
+    width:311px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:16px;
+    float:left;
+}
+
+.detail .code{
+    width:311px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 16px 0px 16px;
+}
+
+.detail .info-text{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #7D90AA;
+    width:289px;
+    height: 42px;
+    text-align: center;
+    margin: 29px 24px 33px 30px;
+}
+
+.detail .info-text span{
+    font-weight: 700;
+}
