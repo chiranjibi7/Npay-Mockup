@@ -1,10 +1,12 @@
-.cardfield{
+.errormodal{
     width:375px;
     padding-bottom: 90px;
+    position: relative;
     background-color: #F7F8FA;
+    filter: blur(3px);
 }
 
-.visa-img{
+.visa-img-error{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +14,7 @@
     margin-top: 25px;
 }
 
-.wallet-text{
+.wallet-text-error{
     font-size: 17px;
     font-weight: 400;
     color: #092058;
@@ -26,14 +28,14 @@
     align-items: center;
 }
 
-.field-wrapper{
+.field-wrapper-error{
     width: 343px;
     height: 50px;
     position: relative;
     margin-top: 42px;
 }
 
-.cardfield input{
+.errormodal input{
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -49,13 +51,13 @@
     padding-bottom: 15px;
 }
 
-.field-wrapper img{
+.field-wrapper-error img{
     position: absolute;
     left:315px;
     top:13px;
 }
 
-.eligible-banks{
+.eligible-banks-error{
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -64,25 +66,72 @@
     gap: 8px;
 }
 
-.eligible-banks p{
+.eligible-banks-error p{
     font-weight: 400;
     font-size: 10px;
     line-height: 19px;
     color: #7D90AA;
 }
 
-/* .cardfield dialog{
+.errormodal dialog{
     width: 343px;
     height: 280px;
     box-shadow: 0px 10px 20px 0px #0000000D;
     border-radius: 20px;
     position: absolute;
     top:266px;
+    left:19px;
+    right:13px;
+    bottom:266px;
     border:none;
     outline: none;
 }
 
-.cardfield dialog::backdrop{
+.errormodal dialog::backdrop{
     background: rgba(9, 32, 88, 0.3);
     width: 375px;
-} */
+    height: 812px;
+    position: absolute;
+}
+
+.error-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #092058;
+    width:290px;
+    height: 20px;
+    text-align: center;
+    margin: 36px 29px 29px 24px;
+}
+
+.error-text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    color: #4F6C8D;
+    width:311px;
+    height: 90px;
+    text-align: center;
+    margin: 0px 19px 29px 13px;
+}
+
+.btn-primary-error{
+    width: 248px;
+    height: 50px;
+    background-color: #186BFE;
+    box-shadow: 0px 10px 20px 0px #0000000D;
+    border-radius: 25px;
+    margin: 0px 47px 26px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-primary-error .btn-continue-error{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+    color: #FFFFFF;
+}

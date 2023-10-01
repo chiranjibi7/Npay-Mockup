@@ -28,7 +28,7 @@ export default function VisadirectWithdrawal() {
         </div>
         <div className='btn-wrapper' style={{marginTop:"148px"}}>
             <div className='btn-primary'>
-                <p className='btn-continue'>CONTINUE</p>
+                <p className='btn-continue'>HOME</p>
             </div>
         </div>
     </div>
