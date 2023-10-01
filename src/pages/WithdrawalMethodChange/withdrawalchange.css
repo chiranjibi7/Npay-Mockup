@@ -1,0 +1,24 @@
+.withdrawal-change{
+    width:375px;
+    background-color: #F7F8FA;
+    padding-bottom: 64px;
+}
+
+.change-text{
+   margin: 19px 16px 21.5px 84px;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15.85px;
+   color:#186BFE;
+   width:52px;
+   height: 16px;
+}
+
+.text-free-change{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.41px;
+    color:#092058;
+    margin-bottom:11px;
+    margin-top: 0px;
+}
