@@ -1,4 +1,4 @@
-import { WithdrawalMethod, CardFieldInformation, CardExpiryInformation, VisadirectWithdrawal, CardErrorModal } from "./pages";
+import { WithdrawalMethod, CardFieldInformation, CardExpiryInformation, VisadirectWithdrawal, CardErrorModal, WithdrawalMethodChange } from "./pages";
 import "./App.css";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
        <CardFieldInformation/>
        <CardExpiryInformation/>
        <VisadirectWithdrawal/>
+       <WithdrawalMethodChange />
     </div>
   );
 }
