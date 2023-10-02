@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/npay-mockup/static/css/main.c4cff92e.css",
+    "main.js": "/npay-mockup/static/js/main.6192d9ae.js",
+    "static/media/visa-card.jpg": "/npay-mockup/static/media/visa-card.74e51d9f70c3da6b3ba0.jpg",
+    "index.html": "/npay-mockup/index.html",
+    "main.c4cff92e.css.map": "/npay-mockup/static/css/main.c4cff92e.css.map",
+    "main.6192d9ae.js.map": "/npay-mockup/static/js/main.6192d9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4cff92e.css",
+    "static/js/main.6192d9ae.js"
+  ]
+}
